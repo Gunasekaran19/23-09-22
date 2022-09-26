@@ -1,0 +1,25 @@
+   body: Row(
+            children: [
+              Expanded(
+                child: Container(
+                  margin: EdgeInsets.all(30.0),
+                  height: 50,
+                  width: 50,
+                  color: Colors.green,
+                ),
+              ),
+              Container(
+                margin: EdgeInsets.all(30.0),
+                // padding: EdgeInsets.all(10.0),
+                height: 100,
+                width: 50,
+                color: Colors.blue,
+              ),
+              Container(
+                margin: EdgeInsets.all(30.0),
+                height: 100,
+                width: 50,
+                color: Colors.yellow,
+              ),
+            ],
+          ),
